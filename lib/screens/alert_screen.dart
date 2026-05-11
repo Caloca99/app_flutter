@@ -8,7 +8,16 @@ class AlertScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-         child: Text('AlertScreen'),
+         child: Padding(
+           padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
+           child: ElevatedButton(
+            onPressed: (){}, 
+            child: Text('Procesar', style: TextStyle(color: Colors.white),)),
+         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){},
+        child: Icon(Icons.cloud_circle, color: Colors.white,),
       ),
     );
   }

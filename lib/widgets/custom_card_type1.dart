@@ -22,4 +22,4 @@ class CustomCardType1 extends StatelessWidget {
       ),
     );
   }
-}
+} 
